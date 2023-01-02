@@ -1,3 +1,6 @@
+# [Home](/index.md)  
+<br/>
+
 >**Note**  
 >These mods are for the Quest version of Beat Saber, NOT PC!
 
@@ -15,6 +18,6 @@
 
 >**Warning**  
 >The mod above is designed for 1.17.1  
->This mod will not be developed further
->This mod is meant for 1.17.1 render/MRCPlus
+>This mod will not be developed further  
+>This mod is meant for 1.17.1 render/MRCPlus  
 >NO ONE is allowed to resume development of this mod

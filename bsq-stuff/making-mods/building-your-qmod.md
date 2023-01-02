@@ -1,3 +1,6 @@
+# [Home](/index.md)  
+<br/>
+
 # You're so close! All that's left is building the qmod.
 You are so close to finishing your first mod! All we need to do now is make our qmod file.  
 <br/>

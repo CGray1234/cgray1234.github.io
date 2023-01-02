@@ -1,3 +1,6 @@
+# [Home](/index.md)  
+<br/>
+
 # Updating your `mod.json` file
 ## Your mod.json file will be outdated, so it's up to us to keep it updated.
 <br/>

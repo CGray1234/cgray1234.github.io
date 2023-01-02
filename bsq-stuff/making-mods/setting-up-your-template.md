@@ -1,3 +1,6 @@
+# [Home](/index.md)  
+<br/>
+
 # Setting up your template
 ## Now that we have everything set up, we can now set up out template to get ready for making our mod.
 <br/>

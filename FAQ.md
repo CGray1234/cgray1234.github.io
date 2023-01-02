@@ -1,3 +1,6 @@
+# [Home](/index.md)  
+<br/>
+
 # If you have any questions, these might answer them:
 
 ### Q: Am I allowed to fork this website and make changes to it?

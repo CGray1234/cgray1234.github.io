@@ -1,3 +1,6 @@
+# [Home](/index.md)  
+<br/>
+
 > **Note**  
 > This guide is for modding Quest Beat Saber  
 > Quest mods are written in C++  
