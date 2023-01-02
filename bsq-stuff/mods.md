@@ -12,7 +12,6 @@
 <br/>
 <br/>
 ## Inactive Beat Saber mods:  
-<br/>
 
 [PC-Render Graphics](https://github.com/CGray1234/Quest-PC-Render-Graphics)
 
