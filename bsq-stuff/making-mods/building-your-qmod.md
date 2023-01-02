@@ -1,4 +1,4 @@
-# [Home](/index.html)  
+# [Home](https://cgray1234.github.io/index.html)  
 <br/>
 
 # You're so close! All that's left is building the qmod.

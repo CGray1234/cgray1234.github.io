@@ -1,4 +1,4 @@
-# [Home](/index.html)  
+# [Home](https://cgray1234.github.io/index.html)  
 <br/>
 
 > **Note**  
