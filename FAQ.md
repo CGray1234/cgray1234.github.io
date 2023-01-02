@@ -8,7 +8,7 @@
 <br/>
 
 ### Q: Why are you making a modding guide? There are plenty out there.
-### A: No particular reason other than I want to make a modding guide of my own. My guide will also go a bit more in-depth with QuestUI than BSMG's.
+### A: No particular reason other than I want to make a modding guide of my own. My guide will also go a bit more in-depth with QuestUI than BSMG's, and has all of the code commonly used with making mods (custom types, questui, etc.)
 <br/>
 
 ### Q: When will this website be done?
