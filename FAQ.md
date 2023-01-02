@@ -5,7 +5,7 @@
 <br/>
 
 ### Q: Why are you making a modding guide? There are plenty out there.
-### A: I want to make a modding guide of my own, and also include video tutorials for people who learn more easily by watching videos instead of reading (like me).
+### A: No particular reason other than I want to make a modding guide of my own. My guide will also go a bit more in-depth with QuestUI than BSMG's.
 <br/>
 
 ### Q: When will this website be done?

@@ -6,6 +6,6 @@ This site is currently unfinished and is in active development. You can check ou
 
 ## Beat Saber Stuff:
 [My Beat Saber mods](./bsq-stuff/mods.md)  
-Mod development guide (soon™)  
+[Mod development guide](./bsq-stuff/making-mods/getting-started.md)
 <br/>
 ## Questions? Refer to the [FAQ](./FAQ.md)
