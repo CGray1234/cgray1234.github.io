@@ -1,4 +1,4 @@
-# [Home](/index.md)  
+# [Home](/index.html)  
 <br/>
 
 # Coding your mod

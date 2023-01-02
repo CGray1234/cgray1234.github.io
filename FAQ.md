@@ -1,4 +1,4 @@
-# [Home](/index.md)  
+# [Home](./index.md)  
 <br/>
 
 # If you have any questions, these might answer them:

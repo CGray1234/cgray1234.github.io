@@ -1,4 +1,4 @@
-# [Home](/index.md)  
+# [Home](/index.html)  
 <br/>
 
 # You're so close! All that's left is building the qmod.
