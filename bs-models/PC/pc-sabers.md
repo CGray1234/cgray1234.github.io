@@ -16,7 +16,7 @@
     </div>
     <div style="text-align: center">
         <a href="https://modelsaber.com/files/saber/1658810038/0.12.0%20Sabers.saber" style="font-size: 50px;">
-            <teko>Download<teko>
+            <teko>Download</teko>
         </a>
     </div>
     <div style="text-align: center">
@@ -44,7 +44,7 @@
     </div>
     <div style="text-align: center">
         <a href="https://modelsaber.com/files/saber/1654481307/Liminal.saber" style="font-size: 50px;">
-            <teko>Download<teko>
+            <teko>Download</teko>
         </a>
     </div>
     <div style="text-align: center">
@@ -72,7 +72,7 @@
     </div>
     <div style="text-align: center">
         <a href="https://modelsaber.com/files/saber/1653497868/Revolute.saber" style="font-size: 50px;">
-            <teko>Download<teko>
+            <teko>Download</teko>
         </a>
     </div>
     <div style="text-align: center">

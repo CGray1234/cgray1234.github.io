@@ -17,7 +17,7 @@
     </div>
     <div style="text-align: center">
         <a href="https://modelsaber.com/files/bloq/1640935770/CagedBloqsPC.bloq" style="font-size: 50px;">
-            <teko>Download<teko>
+            <teko>Download</teko>
         </a>
     </div>
 </div>

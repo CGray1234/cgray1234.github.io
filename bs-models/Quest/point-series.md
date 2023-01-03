@@ -16,7 +16,7 @@
     </div>
     <div style="text-align: center">
         <a href="https://cdn.discordapp.com/attachments/804071417419137115/992227437310124092/Point_V5.qsaber" style="font-size: 50px;">
-            <teko>Download<teko>
+            <teko>Download</teko>
         </a>
     </div>
 </div>
@@ -37,7 +37,7 @@
     </div>
     <div style="text-align: center">
         <a href="https://cdn.discordapp.com/attachments/804071417419137115/967663376283107328/Point_V4.qsaber" style="font-size: 50px;">
-            <teko>Download<teko>
+            <teko>Download</teko>
         </a>
     </div>
 </div>
@@ -58,7 +58,7 @@
     </div>
     <div style="text-align: center">
         <a href="https://cdn.discordapp.com/attachments/804071417419137115/947346472876265482/Point_V3.qsaber" style="font-size: 50px;">
-            <teko>Download<teko>
+            <teko>Download</teko>
         </a>
     </div>
 </div>
@@ -79,7 +79,7 @@
     </div>
     <div style="text-align: center">
         <a href="https://cdn.discordapp.com/attachments/804071417419137115/938560419029737533/Point_Saber_V2.qsaber" style="font-size: 50px;">
-            <teko>Download<teko>
+            <teko>Download</teko>
         </a>
     </div>
 </div>
@@ -100,7 +100,7 @@
     </div>
     <div style="text-align: center">
         <a href="https://cdn.discordapp.com/attachments/804071417419137115/923378379217064036/Point_Saber_V1.qsaber" style="font-size: 50px;">
-            <teko>Download<teko>
+            <teko>Download</teko>
         </a>
     </div>
 </div>

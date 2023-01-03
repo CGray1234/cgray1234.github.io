@@ -5,9 +5,8 @@
     teko { font-family: teko; }
 </style>
 
-<teko style="font-size:20px;">
-
-# Liminal Sabers (Quest version, no grabpass)
+<teko style="font-size:40px;">
+Liminal Sabers (Quest version, no grabpass)
 </teko>
 
 <div>
@@ -16,7 +15,7 @@
     </div>
     <div style="text-align: center">
         <a href="https://cdn.discordapp.com/attachments/804071417419137115/983194690507653150/Liminal_no_grabpass.qsaber" style="font-size: 50px;">
-            <teko>Download<teko>
+            <teko>Download</teko>
         </a>
     </div>
 </div>
@@ -39,7 +38,7 @@
     </div>
     <div style="text-align: center">
         <a href="https://cdn.discordapp.com/attachments/804071417419137115/976966448733884496/Revolute.qsaber" style="font-size: 50px;">
-            <teko>Download<teko>
+            <teko>Download</teko>
         </a>
     </div>
 </div>
@@ -60,7 +59,7 @@
     </div>
     <div style="text-align: center">
         <a href="https://cdn.discordapp.com/attachments/804071417419137115/950066158684500008/Nova_Saber.qsaber" style="font-size: 50px;">
-            <teko>Download<teko>
+            <teko>Download</teko>
         </a>
     </div>
 </div>
@@ -83,7 +82,7 @@
     </div>
     <div style="text-align: center">
         <a href="https://cdn.discordapp.com/attachments/804071417419137115/949929758504935435/Time_Fracture.qsaber" style="font-size: 50px;">
-            <teko>Download<teko>
+            <teko>Download</teko>
         </a>
     </div>
 </div>
@@ -106,7 +105,7 @@
     </div>
     <div style="text-align: center">
         <a href="https://cdn.discordapp.com/attachments/804071417419137115/922175423218073680/CagedSaber2.qsaber" style="font-size: 50px;">
-            <teko>Download<teko>
+            <teko>Download</teko>
         </a>
     </div>
 </div>

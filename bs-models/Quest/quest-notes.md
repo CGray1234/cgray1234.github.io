@@ -16,7 +16,7 @@
     </div>
     <div style="text-align: center">
         <a href="https://cdn.discordapp.com/attachments/804071536142450738/921979556590673930/Caged_qBloq.qbloq" style="font-size: 50px;">
-            <teko>Download<teko>
+            <teko>Download</teko>
         </a>
     </div>
 </div>
