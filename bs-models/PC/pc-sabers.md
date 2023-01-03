@@ -5,7 +5,7 @@
     teko { font-family: teko; }
 </style>
 
-<teko style="font-size:240px;">
+<teko style="font-size:40px;">
 
 0.12.0 Sabers
 </teko>
