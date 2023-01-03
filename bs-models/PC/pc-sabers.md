@@ -5,9 +5,9 @@
     teko { font-family: teko; }
 </style>
 
-<teko style="font-size:20px;">
+<teko style="font-size:240px;">
 
-# 0.12.0 Sabers
+0.12.0 Sabers
 </teko>
 
 <div>
@@ -28,9 +28,9 @@
 
 ---
 
-<teko style="font-size:20px;">
+<teko style="font-size:40px;">
 
-# Liminal Sabers (PC version, grabpass available)
+Liminal Sabers (PC version, grabpass available)
 </teko>
 
 <div>
@@ -51,9 +51,9 @@
 
 ---
 
-<teko style="font-size:20px;">
+<teko style="font-size:40px;">
 
-# Revolute
+Revolute
 </teko>
 
 <div>
