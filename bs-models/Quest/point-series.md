@@ -5,9 +5,9 @@
     teko { font-family: teko; }
 </style>
 
-<teko style="font-size:20px;">
+<teko style="font-size:40px;">
 
-# Point V5
+Point V5
 </teko>
 
 <div>
@@ -21,13 +21,7 @@
     </div>
 </div>
 
-</br>
-</br>
-
 ---
-
-</br>
-</br>
 
 <teko style="font-size:40px;">
 
@@ -45,13 +39,7 @@ Point V4
     </div>
 </div>
 
-</br>
-</br>
-
 ---
-
-</br>
-</br>
 
 <teko style="font-size:40px;">
 
@@ -69,13 +57,7 @@ Point V3
     </div>
 </div>
 
-</br>
-</br>
-
 ---
-
-</br>
-</br>
 
 <teko style="font-size:40px;">
 
@@ -93,13 +75,7 @@ Point V2
     </div>
 </div>
 
-</br>
-</br>
-
 ---
-
-</br>
-</br>
 
 <teko style="font-size:40px;">
 

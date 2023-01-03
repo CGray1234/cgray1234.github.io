@@ -20,13 +20,7 @@ Liminal Sabers (Quest version, no grabpass)
     </div>
 </div>
 
-</br>
-</br>
-
 ---
-
-</br>
-</br>
 
 <teko style="font-size:40px;">
 
@@ -43,13 +37,8 @@ Revolute
         </a>
     </div>
 </div>
-</br>
-</br>
 
 ---
-
-</br>
-</br>
 
 <teko style="font-size:40px;">
 
@@ -66,13 +55,8 @@ Nova Sabers
         </a>
     </div>
 </div>
-</br>
-</br>
 
 ---
-
-</br>
-</br>
 
 <teko style="font-size:40px;">
 
@@ -89,13 +73,8 @@ Time Fracture
         </a>
     </div>
 </div>
-</br>
-</br>
 
 ---
-
-</br>
-</br>
 
 <teko style="font-size:20px;">
 

@@ -26,13 +26,7 @@
     </div>
 </div>
 
-</br>
-</br>
-
 ---
-
-</br>
-</br>
 
 <teko style="font-size:20px;">
 
@@ -55,13 +49,7 @@
     </div>
 </div>
 
-</br>
-</br>
-
 ---
-
-</br>
-</br>
 
 <teko style="font-size:20px;">
 
