@@ -20,6 +20,7 @@
         </a>
     </div>
 </div>
+
 </br>
 </br>
 
@@ -28,7 +29,9 @@
 </br>
 </br>
 
-# Point V4
+<teko style="font-size:40px;">
+
+Point V4
 </teko>
 
 <div>
@@ -41,6 +44,7 @@
         </a>
     </div>
 </div>
+
 </br>
 </br>
 
@@ -49,7 +53,9 @@
 </br>
 </br>
 
-# Point V3
+<teko style="font-size:40px;">
+
+Point V3
 </teko>
 
 <div>
@@ -62,6 +68,7 @@
         </a>
     </div>
 </div>
+
 </br>
 </br>
 
@@ -70,7 +77,9 @@
 </br>
 </br>
 
-# Point V2
+<teko style="font-size:40px;">
+
+Point V2
 </teko>
 
 <div>
@@ -83,6 +92,7 @@
         </a>
     </div>
 </div>
+
 </br>
 </br>
 
@@ -91,12 +101,14 @@
 </br>
 </br>
 
-# Point V1
+<teko style="font-size:40px;">
+
+Point V1
 </teko>
 
 <div>
     <div style="text-align: center;">
-        <img src="https://cdn.discordapp.com/attachments/804071417419137115/923378379456151562/Screenshot_27.png" width="580"></img>
+        <img src="https://cdn.discordapp.com/attachments/804071417419137115/923378379456151562/Screenshot_27.png" width="580">
     </div>
     <div style="text-align: center">
         <a href="https://cdn.discordapp.com/attachments/804071417419137115/923378379217064036/Point_Saber_V1.qsaber" style="font-size: 50px;">
@@ -104,11 +116,3 @@
         </a>
     </div>
 </div>
-</br>
-</br>
-
----
-
-</br>
-</br>
-

@@ -12,7 +12,7 @@
 
 <div>
     <div style="text-align: center;">
-        <img src="https://modelsaber.com/files/saber/1658810038/original.png"></img>
+        <img src="https://modelsaber.com/files/saber/1658810038/original.png">
     </div>
     <div style="text-align: center">
         <a href="https://modelsaber.com/files/saber/1658810038/0.12.0%20Sabers.saber" style="font-size: 50px;">
@@ -25,6 +25,7 @@
         </a>
     </div>
 </div>
+
 </br>
 </br>
 
@@ -40,7 +41,7 @@
 
 <div>
     <div style="text-align: center;">
-        <img src="https://modelsaber.com/files/saber/1654481307/original.png"></img>
+        <img src="https://modelsaber.com/files/saber/1654481307/original.png">
     </div>
     <div style="text-align: center">
         <a href="https://modelsaber.com/files/saber/1654481307/Liminal.saber" style="font-size: 50px;">
@@ -53,6 +54,7 @@
         </a>
     </div>
 </div>
+
 </br>
 </br>
 
@@ -68,7 +70,7 @@
 
 <div>
     <div style="text-align: center;">
-        <img src="https://modelsaber.com/files/saber/1653497868/original.png"></img>
+        <img src="https://modelsaber.com/files/saber/1653497868/original.png">
     </div>
     <div style="text-align: center">
         <a href="https://modelsaber.com/files/saber/1653497868/Revolute.saber" style="font-size: 50px;">
