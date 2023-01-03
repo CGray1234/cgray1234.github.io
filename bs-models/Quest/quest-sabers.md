@@ -76,7 +76,7 @@ Time Fracture
 
 ---
 
-<teko style="font-size:20px;">
+<teko style="font-size:40px;">
 
 Caged Saber V2
 </teko>

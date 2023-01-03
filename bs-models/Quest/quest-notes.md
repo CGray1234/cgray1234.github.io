@@ -5,9 +5,9 @@
     teko { font-family: teko; }
 </style>
 
-<teko style="font-size:20px;">
+<teko style="font-size:40px;">
 
-# Point V5
+Caged qBloqs
 </teko>
 
 <div>

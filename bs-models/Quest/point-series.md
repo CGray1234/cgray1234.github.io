@@ -48,7 +48,7 @@ Point V3
 
 <div>
     <div style="text-align: center;">
-        <img src="https://cdn.discordapp.com/attachments/804071417419137115/947346473274716160/Screenshot_22.png" width="580"></img>
+        <img src="https://cdn.discordapp.com/attachments/804071417419137115/947346473274716160/Screenshot_22.png" width="580">
     </div>
     <div style="text-align: center">
         <a href="https://cdn.discordapp.com/attachments/804071417419137115/947346472876265482/Point_V3.qsaber" style="font-size: 50px;">
@@ -66,7 +66,7 @@ Point V2
 
 <div>
     <div style="text-align: center;">
-        <img src="https://cdn.discordapp.com/attachments/804071417419137115/938560418757111848/Screenshot_15.png" width="580"></img>
+        <img src="https://cdn.discordapp.com/attachments/804071417419137115/938560418757111848/Screenshot_15.png" width="580">
     </div>
     <div style="text-align: center">
         <a href="https://cdn.discordapp.com/attachments/804071417419137115/938560419029737533/Point_Saber_V2.qsaber" style="font-size: 50px;">
