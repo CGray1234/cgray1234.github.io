@@ -1,22 +1,21 @@
 # [Home](https://cgray1234.github.io/index.html)  
 <br/>
 
->**Note**  
->These mods are for the Quest version of Beat Saber, NOT PC!
+# PC mods:  
+[Score Toggler](https://github.com/CGray1234/ScoreToggler-PC/)  
+<br/>
 
-# Here is a list of my active Beat Saber mods:
+# Quest Mods:
 [In-Game Text](https://github.com/CGray1234/InGameText)
 
-[Sqore Toggler](https://github.com/CGray1234/SqoreToggler)
+[Sqore Toggler](https://github.com/CGray1234/SqoreToggler)  
 <br/>
-<br/>
-<br/>
-## Inactive Beat Saber mods:  
 
-[PC-Render Graphics](https://github.com/CGray1234/Quest-PC-Render-Graphics)
-
+# Inactive Beat Saber mods:  
 >**Warning**  
->The mod above is designed for 1.17.1  
+>The mod below is designed for 1.17.1  
 >This mod will not be developed further  
 >This mod is meant for 1.17.1 render/MRCPlus  
 >NO ONE is allowed to resume development of this mod
+
+[PC-Render Graphics](https://github.com/CGray1234/Quest-PC-Render-Graphics)
