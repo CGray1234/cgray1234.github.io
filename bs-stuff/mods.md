@@ -6,10 +6,10 @@
 <div style="background-color: black; text-align: center; font-size:20px; color:white">ㅤ</div>  
 <div style="background-color: black; font-size:20px; color:white">
 
-- [ ] Settings menu </br>
-- [ ] Gameplay Setup menu  </br>
-- [ ] Final checks & tests before release  </br>
-- [ ] Complete!  </br>
+<input type="checkbox" disabled checked> Settings Menu</input>  
+<input type="checkbox" disabled checked> Gameplay Setup Menu</input>  
+<input type="checkbox" disabled checked> Final checks & tests before release</input>  
+<input type="checkbox" disabled checked> Complete!</input>  
 </div>
 
 ---
