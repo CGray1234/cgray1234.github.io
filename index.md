@@ -1,6 +1,6 @@
-<div style="background-color: black; text-align: center; font-size:30px">InGameText is being rewritten!</div>
+<div style="background-color: black; text-align: center; font-size:30px; padding:5px; color:white">InGameText is being rewritten!</div>
 
-<div style="background-color: black; text-align: center; font-size:20px">
+<div style="background-color: black; text-align: center; font-size:20px; padding:5px; color:white">
 
 <p>For more info, click
 <a href="https://cgray1234.github.io/bs-stuff/mods.html">here.</a>

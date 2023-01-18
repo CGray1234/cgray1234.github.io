@@ -1,20 +1,19 @@
 # [Home](https://cgray1234.github.io/index.html)  
 <br/>
 
-<div style="background-color: black; text-align: center; font-size:30px">InGameText is being rewritten!</div>
-<div style="background-color: black; text-align: center; font-size:20px">This page will show the current progress of the BSML rewrite.</div>
-<div style="background-color: black; text-align: center; font-size:20px">ㅤ</div>  
-<div style="background-color: black; font-size:20px">
+<div style="background-color: black; text-align: center; font-size:30px; padding:5px; color:white">InGameText is being rewritten!</div>
+<div style="background-color: black; text-align: center; font-size:20px; color:white">This page will show the current progress of the BSML rewrite.</div>
+<div style="background-color: black; text-align: center; font-size:20px; color:white">ㅤ</div>  
+<div style="background-color: black; font-size:20px; color:white">
 
-- [ ] Settings menu
-- [ ] Gameplay Setup menu
-- [ ] Final checks & tests before release
-- [ ] Complete!
+- [ ] Settings menu  
+- [ ] Gameplay Setup menu  
+- [ ] Final checks & tests before release  
+- [ ] Complete!  
 </div>
 
 ---
 
-</br>
 
 # PC mods:  
 [Score Toggler](https://github.com/CGray1234/ScoreToggler-PC/)  
