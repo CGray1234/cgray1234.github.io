@@ -6,10 +6,10 @@
 <div style="background-color: black; text-align: center; font-size:20px; color:white">ㅤ</div>  
 <div style="background-color: black; font-size:20px; color:white">
 
-- [ ] Settings menu  
-- [ ] Gameplay Setup menu  
-- [ ] Final checks & tests before release  
-- [ ] Complete!  
+- [ ] Settings menu </br>
+- [ ] Gameplay Setup menu  </br>
+- [ ] Final checks & tests before release  </br>
+- [ ] Complete!  </br>
 </div>
 
 ---
