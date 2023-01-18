@@ -1,3 +1,12 @@
+<div style="background-color: black; text-align: center; font-size:30px">InGameText is being rewritten!</div>
+
+<div style="background-color: black; text-align: center; font-size:20px">
+
+<p>For more info, click
+<a href="https://cgray1234.github.io/bs-stuff/mods.html">here.</a>
+</p>
+</div>
+
 # Welcome
 This site is currently unfinished and is in active development. You can check out the source code by clicking [here](https://github.com/CGray1234/cgray1234.github.io)
 <br/>
