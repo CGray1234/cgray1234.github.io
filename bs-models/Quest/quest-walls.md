@@ -1,4 +1,4 @@
-# [Home](https://cgray1234.github.io/index.html)  
+# [Home](https://cgray1234.github.io/index)  
 <br/>
 
 <style>
@@ -7,7 +7,7 @@
 
 <div>
     <teko style="font-size: 50px;">There's none here! </teko>
-    <a href="https://cgray1234.com/bs-models/models.html" style="font-size: 50px;">
+    <a href="https://cgray1234.com/bs-models/models" style="font-size: 50px;">
         <teko>Go back?</teko>
     </a>
 </div>

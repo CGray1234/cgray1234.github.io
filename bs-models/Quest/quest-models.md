@@ -4,7 +4,7 @@
 [Quest Walls](./quest-walls.md)  
 <br/>
 
-[Point Series (sabers)](./point-series.md)
+[Point Series (sabers)](./point-series)
 
 # Additional Resources
 [Qosmetics Discord](https://discord.gg/qosmetics)  

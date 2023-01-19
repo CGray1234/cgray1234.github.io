@@ -1,4 +1,4 @@
-# [Home](https://cgray1234.github.io/index.html)  
+# [Home](https://cgray1234.github.io/index)  
 <br/>
 
 # Setting up your template

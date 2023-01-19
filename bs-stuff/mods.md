@@ -1,4 +1,4 @@
-# [Home](https://cgray1234.github.io/index.html)  
+# [Home](https://cgray1234.github.io/index)  
 <br/>
 
 <div style="background-color: black; text-align: center; font-size:30px; padding:5px; color:white">InGameText is being rewritten!</div>
