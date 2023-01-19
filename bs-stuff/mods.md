@@ -6,22 +6,20 @@
 <div style="background-color: black; text-align: center; font-size:20px; color:white">ㅤ</div>  
 <div style="background-color: black; font-size:20px; color:white">
 
-<input type="checkbox" disabled checked> Settings Menu 
-
+<input type="checkbox" name="sMenu" disabled checked>
+<label for="sMenu">Settings Menu</label>
 </br>
 
-<input type="checkbox" disabled checked> Gameplay Setup Menu
-
+<input type="checkbox" name="gsMenu" disabled checked>
+<label for="gsMenu">Gameplay Setup Menu</label>
 </br>
 
-<input type="checkbox" disabled checked> Final checks & tests before release
-
+<input type="checkbox" name="prerelease" disabled checked>
+<label for="prerelease">Final tests & checks before release</label>
 </br>
 
-<input type="checkbox" disabled checked> Complete!
-
-</br>
-
+<input type="checkbox" name="done" disabled checked>
+<label for="done">Complete!</label>
 </div>
 
 ---
