@@ -8,15 +8,18 @@
 
 <input type="checkbox" name="sMenu" disabled checked>
 <label for="sMenu">Settings Menu</label>
-</br>
+
+<br/>
 
 <input type="checkbox" name="gsMenu" disabled checked>
 <label for="gsMenu">Gameplay Setup Menu</label>
-</br>
+
+<br/>
 
 <input type="checkbox" name="prerelease" disabled checked>
 <label for="prerelease">Final tests & checks before release</label>
-</br>
+
+<br/>
 
 <input type="checkbox" name="done" disabled checked>
 <label for="done">Complete!</label>
