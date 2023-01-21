@@ -12,7 +12,7 @@
 <br/>
 
 <input type="checkbox" name="gsMenu" disabled checked>
-<label for="gsMenu">Gameplay Setup Menu</label>
+<label for="gsMenu">Gameplay Setup Menu (this feature is being removed)</label>
 
 <br/>
 
@@ -21,7 +21,7 @@
 
 <br/>
 
-<input type="checkbox" name="done" disabled checked>
+<input type="checkbox" name="done" disabled>
 <label for="done">Complete!</label>
 </div>
 
