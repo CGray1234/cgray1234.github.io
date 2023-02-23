@@ -6,24 +6,6 @@
 </style>
 
 <teko style="font-size:40px;">
-
-0.12.0 Sabers (render mod **ONLY**)
-</teko>
-
-<div>
-    <div style="text-align: center;">
-        <img src="https://modelsaber.com/files/saber/1658810038/original.png">
-    </div>
-    <div style="text-align: center">
-        <a href="https://cdn.discordapp.com/attachments/978777518305865798/1035715996817825822/0.12.0_Whackers_render.whacker" style="font-size: 50px;">
-            <teko>Download</teko>
-        </a>
-    </div>
-</div>
-
----
-
-<teko style="font-size:40px;">
 Liminal Sabers (Quest version, no grabpass)
 </teko>
 
