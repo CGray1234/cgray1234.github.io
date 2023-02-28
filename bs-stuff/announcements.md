@@ -18,7 +18,7 @@ Welcome to the new
 page!
 </p>
 
----
+<hr>
 
 <br>
 
@@ -28,7 +28,10 @@ This page is under construction and may look rough. Fixes will be made as the pa
 
 </br>
 
----
+<hr>
+
+<br>
+<br>
 
 </div>
 
