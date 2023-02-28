@@ -18,17 +18,13 @@ Welcome to the new
 page!
 </p>
 
-<hr>
-
-<br>
+<hr style="height:7px">
 
 This page will keep you up to date on the latest Beat Saber announcements.
 
 This page is under construction and may look rough. Fixes will be made as the page continues to be under construction.
 
-</br>
-
-<hr>
+<hr style="height:7px">
 
 <br>
 <br>
