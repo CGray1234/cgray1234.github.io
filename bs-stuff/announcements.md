@@ -79,6 +79,9 @@ Launch the game, exit the game, then install mods with Mod Assistant.
 <b>Quest Modding</b> | ❌
 It is currently **NOT** safe to update if you still want custom songs or mods! Please stay on your current version of Beat Saber and check again later for further updates.
 
+<br>
+<br>
+
 <i>Want to downgrade to <code>v1.27.0</code>?</i> <br>
 Visit https://bsmg.wiki/quest-modding.html#downgrading for more information. Once downgraded, you can learn more on adding mods and custom levels in our wiki guide https://bsmg.wiki/quest-modding.html#installing-mods.
 
