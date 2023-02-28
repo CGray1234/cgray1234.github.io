@@ -10,6 +10,8 @@
     div#info { font-family: teko; font-size: 30px; color: #000000; padding-top: 0px }
 
     hr#thicc-line { border-top: 7px solid #000000 }
+
+    hr#thinn-line { border-top: 2px solid #000000 }
 </style>
 
 <div style="font-family: teko; font-size:45px; text-align:center; ">

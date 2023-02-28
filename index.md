@@ -1,9 +1,20 @@
-<div style="background-color: black; text-align: center; font-size:30px; padding:5px; color:white">InGameText is being rewritten!</div>
+<!--- 
+<div style="background-color: black; text-align: center; font-size:30px; padding:5px; color:white">InGameText is being rewritten!</div> 
 
 <div style="background-color: black; text-align: center; font-size:20px; padding:5px; color:white">
 
 <p>For more info, click
 <a href="https://cgray1234.github.io/bs-stuff/mods">here.</a>
+</p>
+</div>
+-->
+
+<div style="background-color: #5450b5; text-align: center; font-size:30px; padding:5px; color:white">Beat Saber 1.28.0 has released!</div> 
+
+<div style="background-color: #5450b5; text-align: center; font-size:20px; padding:5px; color:white">
+
+<p>For more info, go to the announcements page by clicking
+<a href="https://cgray1234.github.io/bs-stuff/announcements">here.</a>
 </p>
 </div>
 
