@@ -11,6 +11,9 @@
 This site is currently unfinished and is in active development. You can check out the source code by clicking [here](https://github.com/CGray1234/cgray1234.github.io)
 <br/>
 
+## New announcements page!
+[Click here!](./bs-stuff/announcements)
+
 ## Beat Saber Stuff:
 [My Beat Saber mods](./bs-stuff/mods)  
 [Mod development guide](./bs-stuff/making-quest-mods/getting-started)  
