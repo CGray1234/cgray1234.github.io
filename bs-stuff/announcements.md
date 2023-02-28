@@ -8,6 +8,8 @@
     div#title { font-family: teko; font-size: 50px; color: #00aeff; padding-top: 0px }
 
     div#info { font-family: teko; font-size: 30px; color: #000000; padding-top: 0px }
+
+    hr#thicc-line { border-top: 7px solid #000000 }
 </style>
 
 <div style="font-family: teko; font-size:45px; text-align:center; ">
@@ -18,13 +20,13 @@ Welcome to the new
 page!
 </p>
 
-<hr style="height:7px">
+<hr id="thicc-line">
 
 This page will keep you up to date on the latest Beat Saber announcements.
 
 This page is under construction and may look rough. Fixes will be made as the page continues to be under construction.
 
-<hr style="height:7px">
+<hr id="thicc-line">
 
 <br>
 <br>
