@@ -2,6 +2,8 @@
     teko { font-family: teko; }
 </style>
 
+<a style="font-family: teko; font-size: 40px;" href="https://cgray1234.github.io">Home</a>
+
 <style>
     div#date { font-family: teko; font-size: 45px; color: #5450b5; padding-bottom: 0px }
 
