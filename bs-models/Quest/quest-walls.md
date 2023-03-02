@@ -2,6 +2,13 @@
 <br/>
 
 <style>
+    * {
+        font-family: "Teko";
+        src: url(teko-medium.otf);
+    }
+</style>
+
+<style>
     teko { font-family: teko; }
 </style>
 

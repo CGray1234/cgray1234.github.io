@@ -1,6 +1,13 @@
 # [Home](https://cgray1234.github.io/index)  
 <br/>
 
+<style>
+    * {
+        font-family: "Teko";
+        src: url(teko-medium.otf);
+    }
+</style>
+
 # Coding your mod
 ## It's time for the moment you've been waiting for, making the mod! This mod will be a simple mod that changes the text of the main menu buttons (solo button, online button, etc.) We will be using codegen, config-utils, custom-types, and QuestUI.  
 <br/>

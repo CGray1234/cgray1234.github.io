@@ -9,6 +9,13 @@
 </div>
 -->
 
+<style>
+    * {
+        font-family: "Teko";
+        src: url(teko-medium.otf);
+    }
+</style>
+
 <div style="background-color: #5450b5; text-align: center; font-size:30px; padding:5px; color:white">Beat Saber 1.28.0 has released!</div> 
 
 <div style="background-color: #5450b5; text-align: center; font-size:20px; padding:5px; color:white">

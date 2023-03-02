@@ -1,6 +1,13 @@
 # [Home](https://cgray1234.github.io/index)  
 <br/>
 
+<style>
+    * {
+        font-family: "Teko";
+        src: url(teko-medium.otf);
+    }
+</style>
+
 # Setting up your template
 ## Now that we have everything set up, we can now set up out template to get ready for making our mod.
 <br/>

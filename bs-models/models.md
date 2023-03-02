@@ -1,6 +1,13 @@
 # [Home](https://cgray1234.github.io/index)  
 <br/>
 
+<style>
+    * {
+        font-family: "Teko";
+        src: url(teko-medium.otf);
+    }
+</style>
+
 # Beat Saber Models  
 [Quest](./Quest/quest-models.md)  
 [PC](./PC/pc-models.md)  

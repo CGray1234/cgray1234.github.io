@@ -1,6 +1,13 @@
 # [Home](https://cgray1234.github.io/index)  
 <br/>
 
+<style>
+    * {
+        font-family: "Teko";
+        src: url(teko-medium.otf);
+    }
+</style>
+
 # Updating your `mod.json` file
 ## Your mod.json file will be outdated, so it's up to us to keep it updated.
 <br/>

@@ -1,4 +1,14 @@
 <style>
+    @font-face {
+        font-family: "Teko";
+        src: url(teko-medium.otf)
+    }
+
+    * {
+        font-family: "Teko";
+        src: url(teko-medium.otf);
+    }
+
     teko { font-family: teko; }
 </style>
 

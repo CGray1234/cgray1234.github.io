@@ -4,6 +4,13 @@
 [Quest Walls](./quest-walls.md)  
 <br/>
 
+<style>
+    * {
+        font-family: "Teko";
+        src: url(teko-medium.otf);
+    }
+</style>
+
 [Point Series (sabers)](./point-series)
 
 # Additional Resources

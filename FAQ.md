@@ -1,6 +1,13 @@
 # [Home](./index)  
 <br/>
 
+<style>
+    * {
+        font-family: "Teko";
+        src: url(teko-medium.otf);
+    }
+</style>
+
 # If you have any questions, these might answer them:
 
 ### Q: Am I allowed to fork this website and make changes to it?

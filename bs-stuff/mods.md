@@ -6,6 +6,13 @@
 <div style="background-color: black; text-align: center; font-size:20px; color:white">ㅤ</div>  
 <div style="background-color: black; font-size:20px; color:white">
 
+<style>
+    * {
+        font-family: "Teko";
+        src: url(teko-medium.otf);
+    }
+</style>
+
 <input type="checkbox" name="sMenu" disabled checked>
 <label for="sMenu">Settings Menu</label>
 

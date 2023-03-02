@@ -1,6 +1,13 @@
 # [Home](https://cgray1234.github.io/index)  
 <br/>
 
+<style>
+    * {
+        font-family: "Teko";
+        src: url(teko-medium.otf);
+    }
+</style>
+
 > **Note**  
 > This guide is for modding Quest Beat Saber  
 > Quest mods are written in C++  
