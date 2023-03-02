@@ -11,7 +11,7 @@
     }
 </style>
 
-[Point Series (sabers)](./point-series)
+[Point Series (Sabers)](./point-series)
 
 # Additional Resources
 [Qosmetics Discord](https://discord.gg/qosmetics)  
