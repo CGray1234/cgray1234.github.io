@@ -32,7 +32,7 @@
 <div style="background-color: gray; text-align: center; font-size:20px; padding:5px; color:white">
 
 <p>Check out what this means by clicking
-<a href="https://cgray1234.github.io/HTML/">here.</a>
+<a href="https://cgray1234.github.io/HTML">here.</a>
 </p>
 </div>
 
