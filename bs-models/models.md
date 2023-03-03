@@ -9,8 +9,8 @@
 </style>
 
 # Beat Saber Models  
-[Quest](./Quest/quest-models.md)  
-[PC](./PC/pc-models.md)  
+[Quest](./Quest/quest-models)  
+[PC](./PC/pc-models)  
 <br/>
 
 # Additional Resources  
