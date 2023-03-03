@@ -25,6 +25,19 @@
 </p>
 </div>
 
+<br>
+
+<div style="background-color: gray; text-align: center; font-size:30px; padding:5px; color:white">This site is being migrated to HTML</div> 
+
+<div style="background-color: gray; text-align: center; font-size:20px; padding:5px; color:white">
+
+<p>Check out what this means by clicking
+<a href="https://cgray1234.github.io/HTML/">here.</a>
+</p>
+</div>
+
+<br>
+
 # Welcome
 This site is currently unfinished and is in active development. You can check out the source code by clicking [here](https://github.com/CGray1234/cgray1234.github.io)
 <br/>
