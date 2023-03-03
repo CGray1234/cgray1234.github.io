@@ -1,7 +1,7 @@
 # Quest Models
-[Quest Sabers](./quest-sabers.md)  
-[Quest Notes](./quest-notes.md)  
-[Quest Walls](./quest-walls.md)  
+[Quest Sabers](./quest-sabers)  
+[Quest Notes](./quest-notes)  
+[Quest Walls](./quest-walls)  
 <br/>
 
 <style>
