@@ -1,0 +1,23 @@
+hr#thicc-line_redtoblue { height:7px; border-width:0; background: linear-gradient(to right, #ff0000, #2a57c9 75%); }
+
+hr#thinn-line_redtoblue { height:2px; border-width:0; background: linear-gradient(to right, #ff0000, #2a57c9 75%); }
+
+@font-face {
+    font-family: "TekoMedium";
+    src: url("/ExtraAssets/Teko-Medium.ttf");
+    font-size: larger;
+    color: white;
+}
+
+* {
+    font-family: "TekoMedium";
+    font-size: larger;
+    color: white;
+}
+
+body { 
+    background-image: url("images/background.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

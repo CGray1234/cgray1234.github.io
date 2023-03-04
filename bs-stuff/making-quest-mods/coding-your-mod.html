@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+<a href="https://cgray1234.github.io/index">Home</a>
+
+<hr id="thinn-line_redtoblue">
+
+<h1>Coding your mod</h1>
+<h2> It's time for the moment you've been waiting for, making the mod! This mod will be a simple mod that changes the text of the main menu buttons (solo button, online button, etc.) We will be using codegen, config-utils, custom-types, and QuestUI.</h2>
+<br/>
+
+<h2>First, we need to add our dependencies using QPM-Rust. In a new terminal, run this code:  
+<code>qpm-rust dependency add codegen</code>
+<br>
+<code>qpm-rust dependency add config-utils</code>
+<br>
+<code>qpm-rust dependency add questui</code>
+<br>
+<code>qpm-rust dependency add custom-types</code>
+<br>
+In case you need to use an older version of any of these core mods, just add <code>-v ^(version number)</code></h2>
+<br>
+
+<h2>Now run <code>qpm-rust restore</code> to download these dependencies. Codegen takes a while to download because it's a lot of files, so you need to be patient with this process.</h2>
+<br/>
+
+<h1>Now, we can move onto making our config.</h1>
+<h2>Make a new file in the "<code>include</code>" folder. You can name this whatever you want, I'll be naming it config.hpp. This must be a .hpp file.</h2>
+<br>
+
+<h2>To make our config, write the following code:<br>
+<code>
+#pragma once // Always put this at the top of all of your header files (.hpp files)
+<br><br>
+// Include the files we need to use
+<br>
+#include "config-utils/shared/config-utils.hpp"
+<br>
+#include "UnityEngine/Color.hpp" // Since our config values will be using color, we must include that file
+<br><br>
+// Makes our config<br>
+DECLARE_CONFIG(ModConfig, // The config name that will be used in our files<br>
+    CONFIG_VALUE(SoloButtonText, std::string, "Solo Button Text", "Solo");<br>
+    CONFIG_VALUE(SoloButtonTextColor, UnityEngine::Color, "Solo Button Text Color", UnityEngine::Color::get_white());<br><br>
+
+    CONFIG_VALUE(OnlineButtonText, std::string, "Online Button Text", "Online");<br>
+    CONFIG_VALUE(OnlineButtonTextColor, UnityEngine::Color, "Online Button Text Color", UnityEngine::Color::get_white());<br><br>
+
+    CONFIG_VALUE(CampaignButtonText, std::string, "Campaign Button Text", "Campaign");<br>
+    CONFIG_VALUE(CampaignButtonTextColor, UnityEngine::Color, "Campaign Button Text Color", UnityEngine::Color::get_white());<br><br>
+
+    CONFIG_VALUE(PartyButtonText, std::string, "Party Button Text", "Party");<br>
+    CONFIG_VALUE(PartyButtonTextColor, UnityEngine::Color, "Party Button Text Color", UnityEngine::Color::get_white());<br><br>
+
+    // Our config values are (Name, type, Json name, default value)<br>
+)
+</code>
+</h2>
+<br/>
+
+<h2>Almost done with our config, all we need to do now is register it in our `main.cpp` file.  
+<br>
+To do this, put the following code in the `load()` part of our `main.cpp` file. It should look like this:
+<code><br>
+#include "config.hpp" // Put this at the top of your file
+<br><br>
+extern "C" void load() {<br>
+    il2cpp_functions::Init();<br><br>
+
+    getModConfig().Init(modInfo);<br><br>
+
+    getLogger().info("Installing hooks...");<br>
+    // Install our hooks (none defined yet)<br>
+    getLogger().info("Installed all hooks!");<br>
+}
+</code>
+</h2>
+
+<h2>
+Now our config is complete and ready to be used in the mod!
+</h2>
+<br>
+
+<h1>Next, we can start making our hooks.</h1>
+<h2>Our hooks are always in our `main.cpp` file in the `src` folder.</h2>
+<br/>
+
+<h2>
+We need to put our hooks in the spot shown below:</h2>
+<img src="/images/hooks-go-here.png">
+<br>
+
+<h2>To make the main menu buttons change their title and color, we must input the following code:
+<code>
+<br>
+#include "config.hpp"<br><br>
+
+#include "GlobalNamespace/MainMenuViewController.hpp"<br>
+#include "HMUI/CurvedTextMeshPro.hpp"<br>
+#include "UnityEngine/GameObject.hpp"<br>
+
+MAKE_HOOK_MATCH(MainMenuViewController_DidActivate, &GlobalNamespace::MainMenuViewController::DidActivate, void, GlobalNamespace::MainMenuViewController* self, bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling) {<br>
+    MainMenuViewController_DidActivate(self, firstActivation, addedToHierarchy, screenSystemEnabling); // Put this at the very top, or very bottom if you want to change arguments<br><br>
+
+    UnityEngine::GameObject* soloGameObject = self->soloButton->get_gameObject();<br>
+    HMUI::CurvedTextMeshPro* soloButtonText = soloGameObject->GetComponentInChildren<HMUI::CurvedTextMeshPro*>();<br><br>
+
+    soloButtonText->SetText(getModConfig().SoloButtonText.GetValue());<br>
+    soloButtonText->set_color(getModConfig().SoloButtonTextColor.GetValue());<br><br>
+
+
+    UnityEngine::GameObject* onlineGameObject = self->multiplayerButton->get_gameObject();<br>
+    HMUI::CurvedTextMeshPro* onlineButtonText = onlineGameObject->GetComponentInChildren<HMUI::CurvedTextMeshPro*>();<br><br>
+
+    onlineButtonText->SetText(getModConfig().OnlineButtonText.GetValue());<br>
+    onlineButtonText->set_color(getModConfig().OnlineButtonTextColor.GetValue());<br><br>
+
+
+    UnityEngine::GameObject* campaignGameObject = self->campaignButton->get_gameObject();<br>
+    HMUI::CurvedTextMeshPro* campaignButtonText = campaignGameObject->GetComponentInChildren<HMUI::CurvedTextMeshPro*>();<br><br>
+
+    campaignButtonText->SetText(getModConfig().CampaignButtonText.GetValue());<br>
+    campaignButtonText->set_color(getModConfig().CampaignButtonTextColor.GetValue());<br><br>
+
+
+    UnityEngine::GameObject* partyGameObject = self->partyButton->get_gameObject();<br>
+    HMUI::CurvedTextMeshPro* partyButtonText = partyGameObject->GetComponentInChildren<HMUI::CurvedTextMeshPro*>();<br><br>
+
+    partyButtonText->SetText(getModConfig().PartyButtonText.GetValue());<br>
+    partyButtonText->set_color(getModConfig().PartyButtonTextColor.GetValue());<br>
+}
+</code>
+</h2>
+<br/>
+
+<h2>Yeah, it's a lot, which is why I've provided it here for you so you don't have to type it all out :)</h2>
+<br/>
+
+<h2>After that, we need to install our hooks. To install the hooks, add the following code into the `load()` part in `main.cpp`
+<code>
+// Called later on in the game loading - a good time to install function hooks<br>
+extern "C" void load() {<br>
+    il2cpp_functions::Init();<br><br>
+
+    getLogger().info("Installing hooks...");<br><br>
+
+    INSTALL_HOOK(getLogger(), MainMenuViewController_DidActivate); // Installs our hooks<br><br>
+
+    getLogger().info("Installed all hooks!");<br>
+}
+</code>  
+</h2>
+<br>
+
+<h1> We're almost done! Now, we need to make our UI.</h1>
+<h2>To make our UI, we will be using custom-types and QuestUI. To get started, make a file called `ViewController.hpp` in our include folder.
+
+<code>
+#pragma once<br><br>
+
+#include "custom-types/shared/macros.hpp"<br>
+#include "HMUI/ViewController.hpp"<br><br>
+
+// TestMod is our namespace, TestModViewController is our type name<br>
+DECLARE_CLASS_CODEGEN(TestMod, TestModViewController, HMUI::ViewController,<br><br>
+
+    DECLARE_OVERRIDE_METHOD(void, DidActivate, il2cpp_utils::FindMethodUnsafe("HMUI", "ViewController", "DidActivate", 3), bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);<br>
+)
+</code>
+</h2>
+<br>
+
+<h2>Once we're done with that, make a file in your `src` folder called `ViewController.cpp`. This is the file where we make our UI.</h2>
+<br/>
+
+<h2>Put the following code into your `ViewController.cpp` file:
+<code>
+#include "UI/ViewController.hpp"<br>
+#include "config.hpp"<br><br>
+
+#include "questui/shared/BeatSaberUI.hpp"<br>
+#include "questui/shared/QuestUI.hpp"<br><br>
+
+#include "UnityEngine/GameObject.hpp"<br>
+#include "UnityEngine/Color.hpp"<br><br>
+
+DEFINE_TYPE(TestMod, TestModViewController); // Defines our type so we can use it in the code below<br><br>
+
+void TestMod::TestModViewController::DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling) {<br>
+    if (firstActivation) { // Call this so it will only make our UI once<br>
+        UnityEngine::GameObject* container = QuestUI::BeatSaberUI::CreateScrollableSettingsContainer(get_transform()); // Makes the scrollable container to put our UI elements (buttons, switches, color pickers, etc.) in<br><br>
+
+        // Creates text that says "Solo Button", parents it to the container, and aligns it in the center<br>
+        QuestUI::BeatSaberUI::CreateText(container->get_transform(), "Solo Button")->set_alignment(TMPro::TextAlignmentOptions::Center);<br><br>
+
+        // Creates an editable string setting in the UI that gets the current string value in our mod config, and applies the string value when we interact with it (use the = lambda for this)<br>
+        QuestUI::BeatSaberUI::CreateStringSetting(container->get_transform(), "Solo Button Text", getModConfig().SoloButtonText.GetValue(), <br>
+            [=](std::string value) {<br>
+                getModConfig().SoloButtonText.SetValue(value);<br>
+            }<br>
+        );<br>
+        // Creates a color picker that says "Solo Button Text Color", gets the value in our mod config, and applies the changes when we're done interacting with it (again, use the = lambda)<br>
+        QuestUI::BeatSaberUI::CreateColorPicker(container->get_transform(), "Solo Button Text Color", getModConfig().SoloButtonTextColor.GetValue(),<br>
+            [=](UnityEngine::Color value) {<br>
+                getModConfig().SoloButtonTextColor.SetValue(value);<br>
+            }<br>
+        );<br><br><br>
+
+
+        QuestUI::BeatSaberUI::CreateText(container->get_transform(), "Online Button")->set_alignment(TMPro::TextAlignmentOptions::Center);<br><br>
+
+        QuestUI::BeatSaberUI::CreateStringSetting(container->get_transform(), "Online Button Text", getModConfig().OnlineButtonText.GetValue(), <br>
+            [=](std::string value) {<br>
+                getModConfig().OnlineButtonText.SetValue(value);<br>
+            }<br>
+        );<br><br>
+
+        QuestUI::BeatSaberUI::CreateColorPicker(container->get_transform(), "Online Button Text Color", getModConfig().OnlineButtonTextColor.GetValue(),<br>
+            [=](UnityEngine::Color value) {<br>
+                getModConfig().OnlineButtonTextColor.SetValue(value);<br>
+            }<br>
+        );<br><br><br>
+        
+
+        QuestUI::BeatSaberUI::CreateText(container->get_transform(), "Campaign Button")->set_alignment(TMPro::TextAlignmentOptions::Center);<br><br>
+
+        QuestUI::BeatSaberUI::CreateStringSetting(container->get_transform(), "Campaign Button Text", getModConfig().CampaignButtonText.GetValue(), <br>
+            [=](std::string value) {<br>
+                getModConfig().CampaignButtonText.SetValue(value);<br>
+            }<br>
+        );<br><br>
+
+        QuestUI::BeatSaberUI::CreateColorPicker(container->get_transform(), "Campaign Button Text", getModConfig().CampaignButtonTextColor.GetValue(),<br>
+            [=](UnityEngine::Color value) {<br>
+                getModConfig().CampaignButtonTextColor.SetValue(value);<br>
+            }<br>
+        );<br><br><br>
+
+
+        QuestUI::BeatSaberUI::CreateText(container->get_transform(), "Party Button")->set_alignment(TMPro::TextAlignmentOptions::Center);<br><br>
+
+        QuestUI::BeatSaberUI::CreateStringSetting(container->get_transform(), "Party Button Text", getModConfig().PartyButtonText.GetValue(), <br>
+            [=](std::string value) {<br>
+                getModConfig().PartyButtonText.SetValue(value);<br>
+            }<br>
+        );<br><br>
+
+        QuestUI::BeatSaberUI::CreateColorPicker(container->get_transform(), "Solo Button Text", getModConfig().PartyButtonTextColor.GetValue(),<br>
+            [=](UnityEngine::Color value) {<br>
+                getModConfig().PartyButtonTextColor.SetValue(value);<br>
+            }<br>
+        );<br>
+    }<br>
+}
+</code>
+</h2>
+<br/>
+
+<h1>We're almost done making our UI! Now, we have to register it into our game.</h1>
+<h2>This next step is SUPER simple. All we need to do is register our UI in our `main.cpp` file. To do that, we must add the following code into our `main.cpp` file</h2>
+<code>
+// Add this at the top of your main.cpp file<br>
+#include "questui/shared/QuestUI.hpp"<br>
+#include "ViewController.hpp"<br>
+</code>
+<h2>Now, we need to add this into our `load()` function
+<code>
+extern "C" void load() {<br>
+    il2cpp_functions::Init();<br><br>
+
+    getModConfig().Init(modInfo);<br><br>
+
+    QuestUI::Init();<br>
+    QuestUI::Register::RegisterAllModSettingsViewController<TestMod::TestModViewController*>(modInfo, "Test Mod");<br><br>
+
+    getLogger().info("Installing hooks...");<br>
+    INSTALL_HOOK(getLogger(), MainMenuViewController_DidActivate);<br>
+    getLogger().info("Installed all hooks!");<br>
+}
+</code>
+</h2>
+<br>
+
+<h1>We now have our UI set up!</h1>
+<h1>Our mod should be done, run copy.ps1 to test our mod!</h1>
+<a href="./building-your-qmod">Next</a>
+
+</body>
