@@ -5,7 +5,45 @@
 
 <body>
 
-<h1><a href="/index">Home</a></h1>
+    <div style="height: 65px; background-color: dodgerblue; display: flex; align-items: center;">
+
+        <a href="https://cgray1234.github.io/">
+            <button id="nav">Home</button>
+        </a>
+    
+        <a href="https://cgray1234.github.io/bs-stuff/mods">
+            <button id="nav">My Mods</button>
+        </a>
+    
+        <a href="https://cgray1234.github.io/bs-stuff/making-quest-mods/getting-started">
+            <button id="nav">Making Mods</button>
+        </a>
+    
+        <a href="https://cgray1234.github.io/bs-models/models">
+            <button id="nav">My Models</button>
+        </a>
+    
+        <a href="https://cgray1234.github.io/FAQ">
+            <button id="nav">FAQ</button>
+        </a>
+    
+        <script>
+            // Get the button and page title elements by their IDs
+            var button = document.getElementById("nav");
+            var pageTitle = document.title;
+    
+            // Compare the button text to the page title and underline if they match
+            if (button.textContent === pageTitle) {
+                button.style.textDecoration = "underline";
+                button.disabled = true;
+                button.id = "navDisabled";
+            }
+        </script>
+    
+    </div>
+    <div id="bg">
+
+        <div style="margin-left: 5px;">
 <br/>
 
 <h1>PC Models</h1>
