@@ -21,3 +21,25 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+div#bg {
+    background: #00000075;
+}
+
+button#nav {
+    background-color: transparent; 
+    border: 0px;
+    margin-left: 10px;
+}
+
+button#nav:hover {
+    background-color: #ffffff75;
+    border: 0px;
+    margin-left: 10px;
+}
+
+button#navDisabled {
+    background-color: #00000020;
+    border: 0px;
+    margin-left: 10px;
+}

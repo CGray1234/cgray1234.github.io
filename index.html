@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <head>
     <link rel="stylesheet" href="style.css">
+
+    <title>Home</title>
 </head>
 
 <body>
@@ -11,32 +13,72 @@
 
 <p>Sample Announcement</p>
 </div>-->
+<div style="height: 65px; background-color: dodgerblue; display: flex; align-items: center;">
 
-<h1>Welcome</h1>
-<span>This site is currently unfinished and is in active development. You can check out the source code by clicking <a href="https://github.com/CGray1234/cgray1234.github.io/tree/HTML-migration">here</a></span>
-<br>
-<br>
+        <a href="https://cgray1234.github.io/">
+            <button id="nav">Home</button>
+        </a>
+    
+        <a href="https://cgray1234.github.io/index/bs-stuff/mods">
+            <button id="nav">My Mods</button>
+        </a>
+    
+        <a href="https://cgray1234.github.io/index/bs-stuff/making-quest-mods/getting-started">
+            <button id="nav">Making Mods</button>
+        </a>
+    
+        <a href="https://cgray1234.github.io/index/bs-models/models">
+            <button id="nav">My Models</button>
+        </a>
+    
+        <a href="https://cgray1234.github.io/index/FAQ">
+            <button id="nav">FAQ</button>
+        </a>
+    
+        <script>
+            // Get the button and page title elements by their IDs
+            var button = document.getElementById("nav");
+            var pageTitle = document.title;
+    
+            // Compare the button text to the page title and underline if they match
+            if (button.textContent === pageTitle) {
+                button.style.textDecoration = "underline";
+                button.disabled = true;
+                button.id = "navDisabled";
+            }
+        </script>
+    
+    </div>
 
-<hr id="thinn-line_redtoblue">
+<div id="bg">
 
-<h2>New announcements page!</h2>
-<a href="./bs-stuff/announcements">Click Here!</a>
+    <h1>Welcome</h1>
+    <span>This site is currently unfinished and is in active development. You can check out the source code by clicking <a href="https://github.com/CGray1234/cgray1234.github.io/tree/HTML-migration">here</a></span>
+    <br>
+    <br>
 
-<br>
-<br>
+    <hr id="thinn-line_redtoblue">
 
-<hr id="thinn-line_redtoblue">
+    <h2>Announcements page (archived as of 10/12/2023)</h2>
+    <a href="./bs-stuff/announcements">Click Here!</a>
 
-<h2> Beat Saber Stuff: </h2>
-<a href="./bs-stuff/mods">My Beat Saber mods</a>
-<br>
-<a href="./bs-stuff/making-quest-mods/getting-started">Mod development guide</a>
-<br>
-<a href="./bs-models/models">My Beat Saber models</a>
-<br>
-<br>
-<hr id="thinn-line_redtoblue">
+    <br>
+    <br>
 
-<h2>Questions? Refer to the <a href="./FAQ">FAQ</a>
+    <hr id="thinn-line_redtoblue">
+
+    <h2> Beat Saber Stuff: </h2>
+    <a href="./bs-stuff/mods">My Beat Saber mods</a>
+    <br>
+    <a href="./bs-stuff/making-quest-mods/getting-started">Mod development guide</a>
+    <br>
+    <a href="./bs-models/models">My Beat Saber models</a>
+    <br>
+    <br>
+    <hr id="thinn-line_redtoblue">
+
+    <h2>Questions? Refer to the <a href="./FAQ">FAQ</a>
+
+</div>
 
 </body>
