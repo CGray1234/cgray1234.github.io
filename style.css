@@ -53,4 +53,6 @@ button#next {
 
 button#next:hover {
     background-color: rgb(120, 187, 255);
+    border-color: transparent;
+    border-radius: 5px;
 }
