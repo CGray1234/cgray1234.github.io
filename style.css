@@ -44,3 +44,13 @@ button#navDisabled {
     margin-left: 10px;
     text-decoration: underline;
 }
+
+button#next {
+    border-radius: 5px;
+    background-color: rgb(30, 144, 255);
+    border-color: transparent;
+}
+
+button#next:hover {
+    background-color: rgb(120, 187, 255);
+}
