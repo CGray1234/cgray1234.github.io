@@ -1,0 +1,54 @@
+@font-face {
+    font-family: Metropolis ExtraBold;
+    src: url(./assets/Metropolis-ExtraBold.otf);
+}
+
+* {
+    font-family: Metropolis ExtraBold;
+    color: white;
+}
+
+body {
+    margin: 0;
+    background-color: #191919;
+}
+
+#center-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#inner-grid-container {
+    height: 100%;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    display: grid;
+    place-items: center;
+    grid-template-rows: auto auto auto;
+}
+
+#pfp {
+    margin-top: 1rem;
+    outline: 2px solid #b4b4b4;
+    border-radius: 100%;
+    width: 10rem;
+    outline-offset: 5px;
+}
+
+h1 {
+    font-size: 3.5rem;
+    margin-bottom: 0;
+}
+
+p {
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+
+a {
+    color: #41b3ff;
+}
